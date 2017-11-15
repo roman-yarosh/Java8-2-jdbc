@@ -4,7 +4,7 @@ import ua.goit.model.entity.Developer;
 
 import java.util.List;
 
-public interface DeveloperDAO extends GenericDao<Developer, Long> {
 
+public interface DeveloperDAO extends GenericDao<Developer, Long> {
 
 }
