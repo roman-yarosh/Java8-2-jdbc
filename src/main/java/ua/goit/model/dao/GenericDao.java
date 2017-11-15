@@ -6,6 +6,7 @@ import java.util.Optional;
 
 public interface GenericDao<T, K> {
 
+
     Optional<T> read(K key);
 
     void create(T entity);

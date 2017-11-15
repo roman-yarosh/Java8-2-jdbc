@@ -6,4 +6,5 @@ import java.util.List;
 
 public interface DeveloperDAO extends GenericDao<Developer, Long> {
 
+
 }
