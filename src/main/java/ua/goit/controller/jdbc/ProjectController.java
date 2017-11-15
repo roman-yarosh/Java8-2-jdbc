@@ -7,8 +7,8 @@ import ua.goit.model.entity.Project;
 import java.util.List;
 import java.util.Optional;
 
-public class ProjectController implements Controller<Project, Long> {
 
+public class ProjectController implements Controller<Project, Long> {
 
     private JdbcProjectDAO jdbcProjectDAO = JdbcProjectDAO.getInstance();
 

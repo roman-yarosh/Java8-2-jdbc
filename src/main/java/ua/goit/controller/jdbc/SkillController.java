@@ -7,8 +7,8 @@ import ua.goit.model.entity.Skill;
 import java.util.List;
 import java.util.Optional;
 
-public class SkillController implements Controller<Skill, Long> {
 
+public class SkillController implements Controller<Skill, Long> {
 
     private JdbcSkillDAO jdbcSkillDAO = JdbcSkillDAO.getInstance();
 
