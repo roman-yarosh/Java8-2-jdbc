@@ -6,6 +6,7 @@ public enum CustomerFields {
     CUSTOMER_NAME("Название заказчика"),
     CUSTOMER_ADDRESS("Адрес заказчика");
 
+
     private String fieldName;
 
     CustomerFields(String field){

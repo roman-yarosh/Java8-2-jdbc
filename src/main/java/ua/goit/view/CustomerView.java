@@ -87,6 +87,7 @@ public class CustomerView {
                 consoleViewStarter.startApp();
                 break;
         }
+
         customerViewStarter();
     }
 }

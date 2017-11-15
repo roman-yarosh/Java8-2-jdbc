@@ -16,5 +16,4 @@ class JdbcDBConnection {
 
         return DriverManager.getConnection(url, username, password);
     }
-
 }

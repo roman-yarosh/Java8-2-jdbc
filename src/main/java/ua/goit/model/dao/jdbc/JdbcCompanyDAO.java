@@ -33,6 +33,7 @@ public class JdbcCompanyDAO extends JdbcDBConnection implements CompanyDAO{
 
     private static JdbcCompanyDAO instance;
 
+
     private JdbcCompanyDAO() {
     }
 

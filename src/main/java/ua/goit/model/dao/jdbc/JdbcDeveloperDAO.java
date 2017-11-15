@@ -33,6 +33,7 @@ public class JdbcDeveloperDAO extends JdbcDBConnection implements DeveloperDAO {
 
     private static JdbcDeveloperDAO instance;
 
+
     private JdbcDeveloperDAO() {
     }
 

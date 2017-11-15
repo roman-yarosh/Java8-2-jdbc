@@ -9,6 +9,7 @@ import java.util.Optional;
 
 public class CompanyController implements Controller<Company, Long> {
 
+
     private JdbcCompanyDAO jdbcCompanyDAO = JdbcCompanyDAO.getInstance();
 
     @Override

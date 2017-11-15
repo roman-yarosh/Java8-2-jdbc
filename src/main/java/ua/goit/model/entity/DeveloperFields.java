@@ -7,6 +7,7 @@ public enum DeveloperFields {
     EXPERIENCE("Опыт работы"),
     SALARY("Зарплата");
 
+
     private String fieldName;
 
     DeveloperFields(String field){

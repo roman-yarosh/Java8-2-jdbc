@@ -21,6 +21,7 @@ public final class ConsoleViewUtils implements Closeable{
     public static final int PROJECTS_TABLE   = 4;
     public static final int SKILLS_TABLE     = 5;
 
+
     private ConsoleViewUtils() {
     }
 

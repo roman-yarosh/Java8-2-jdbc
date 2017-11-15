@@ -32,6 +32,7 @@ public class JdbcCustomerDAO extends JdbcDBConnection implements CustomerDAO {
 
     private static JdbcCustomerDAO instance;
 
+
     private JdbcCustomerDAO() {
     }
 

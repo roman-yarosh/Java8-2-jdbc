@@ -10,5 +10,6 @@ public class PMSystemStarter {
 
         ConsoleViewStarter consoleViewStarter = new ConsoleViewStarter();
         consoleViewStarter.startApp();
+
     }
 }

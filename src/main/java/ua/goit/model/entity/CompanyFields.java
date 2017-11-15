@@ -6,6 +6,7 @@ public enum CompanyFields {
     COMPANY_NAME("Название компании"),
     COMPANY_ADDRESS("Адрес компании");
 
+
     private String fieldName;
 
     CompanyFields(String field){

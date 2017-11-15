@@ -25,6 +25,7 @@ public class JdbcSkillDAO extends JdbcDBConnection implements SkillDAO {
 
     private static JdbcSkillDAO instance;
 
+
     private JdbcSkillDAO() {
     }
 

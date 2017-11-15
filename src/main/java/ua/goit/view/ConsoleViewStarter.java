@@ -14,6 +14,7 @@ public class ConsoleViewStarter {
     private ProjectView projectView;
     private SkillView skillView;
 
+
     public ConsoleViewStarter() {
         this.companyView = new CompanyView();
         this.customerView = new CustomerView();
