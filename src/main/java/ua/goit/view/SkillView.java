@@ -1,6 +1,5 @@
 package ua.goit.view;
 
-import ua.goit.controller.hibernate.HibernateSkillController;
 import ua.goit.controller.jdbc.SkillController;
 import ua.goit.model.entity.Skill;
 import ua.goit.model.entity.SkillFields;
@@ -14,7 +13,7 @@ public class SkillView {
     public void skillViewStarter() throws IOException {
 
         Skill skill = new Skill();
-        HibernateSkillController skillController = new HibernateSkillController();
+        SkillController skillController = new SkillController();
 
         Long skillId;
         String skillName;

@@ -1,6 +1,6 @@
 package ua.goit.view;
 
-import ua.goit.controller.hibernate.HibernateCompanyController;
+import ua.goit.controller.jdbc.CompanyController;
 import ua.goit.model.entity.Company;
 import ua.goit.model.entity.CompanyFields;
 import ua.goit.model.entity.CustomerFields;
@@ -14,7 +14,7 @@ public class CompanyView {
     public void companyViewStarter() throws IOException {
 
         Company company = new Company();
-        HibernateCompanyController companyController = new HibernateCompanyController();
+        CompanyController companyController = new CompanyController();
 
         Long companyId;
         String companyName;
